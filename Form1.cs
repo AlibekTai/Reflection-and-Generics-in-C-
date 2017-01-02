@@ -59,8 +59,7 @@ namespace Generics_and_Reflection
                // }
 
                 var fields = typeof(T).GetFields();
-                //Переменная properties содержит все свойства для типа <T> (в данном случае класса List<Employers>) 
-                //в нетипизированную переменную
+                //Нетипизированная переменная properties содержит все свойства для типа <T> (в данном случае класса List<Employers>)                 
                 var properties = typeof(T).GetProperties();
 
                 /*PropertyInfo pinfo = typeof(T).GetProperty("Name");
